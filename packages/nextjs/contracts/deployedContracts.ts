@@ -5,6 +5,38 @@
 import { GenericContractsDeclaration } from "~~/utils/scaffold-eth/contract";
 
 const deployedContracts = {
+  10: {
+    YourContract2: {
+      address: "0x3a5cf9598310a3c767b477b3796b197b13655abc",
+      abi: [
+        {
+          type: "constructor",
+          inputs: [
+            {
+              name: "value",
+              type: "string",
+              internalType: "string",
+            },
+          ],
+          stateMutability: "nonpayable",
+        },
+        {
+          type: "function",
+          name: "getValue",
+          inputs: [],
+          outputs: [
+            {
+              name: "",
+              type: "string",
+              internalType: "string",
+            },
+          ],
+          stateMutability: "view",
+        },
+      ],
+      inheritedFunctions: {},
+    },
+  },
   11155111: {
     YourContract2: {
       address: "0x87e2111011ac4baa57bff986e093d0dd66908d42",

@@ -17,7 +17,7 @@ contract DeployScript is ScaffoldETHDeploy {
         vm.startBroadcast(deployerPrivateKey);
 
         YourContract2 yourContract = new YourContract2(
-            "This message lives on the Sepolia blockchain!"
+            "This message lives on the Optimism blockchain!"
         );
         console.logString(
             string.concat(
